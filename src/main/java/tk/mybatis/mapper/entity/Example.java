@@ -269,7 +269,6 @@ public class Example implements IDynamicTableName {
         this.tableName = tableName;
     }
 
-    @Override
     public String getDynamicTableName() {
         return tableName;
     }
